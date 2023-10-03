@@ -2,4 +2,4 @@ FROM debian:11.7-slim
 
 COPY important_app /bin/important_app
 
-CMD ["sleep 3"]
+ENTRYPOINT ["sleep", "120"]
